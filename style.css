@@ -1,0 +1,189 @@
+body{
+ background-color:#ededed;
+}
+
+#logo {
+  /* Box-model */
+  height: 50px;
+  /* Positioning */
+  margin-left: 70px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+ 
+
+  /* Typography */
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+
+  padding:10px 15px 10px 15px;
+
+  /* Visual */
+  background: #4aaaa5;
+}
+
+.navbar-custom {
+  background-color: #fff;
+}
+
+#content{
+  margin-top: 50px;
+}
+
+
+.article-content{
+  padding: 30px;
+  color:slategray;
+  background-color: white;
+}
+
+
+
+
+
+.article-content > p {
+  /* Box-model */
+  padding-top: 20px;
+
+  /* Typography */
+  font-size: 16px;
+  line-height: 30px;
+  color: slategray;
+}
+
+.article-header {
+  /* Positioning */
+  margin-bottom: 33px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  
+
+  font-size: 32px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+.comparison-header{
+  margin-bottom: 33px;
+  margin-left: 30px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  
+
+  font-size: 32px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+.article-comparison-header{
+  margin-top: 50px;
+  margin-left: 10px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  
+
+  font-size: 32px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+.article-comparison-text{
+  margin-left: 10px;
+}
+
+.body-color{
+  background-color: grey;
+}
+
+
+
+
+#article-image {
+  /* Positioning */
+  float: left;
+
+  /* Box-model */
+  width: 200px;
+  height: 200px;
+  margin-top: 0;
+  margin-right: 20px;
+}
+
+#imageNav-area {
+  width: 100%;
+
+  /* Box-model */
+  padding: 30px 30px 43px;
+
+  /* Positioning */
+  margin-top: 32px;
+
+  /* Visual */
+  background-color: #fff;
+}
+
+.imageNav-header {
+  /* Positioning */
+  margin-bottom: 15px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+
+  /* Typography */
+  font-size: 25px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+
+.imageNav-photo {
+  width: 140px;
+
+  /* Box-model */
+  height: 140px;
+}
+
+#images {
+  /* Box-model */
+  padding-top: 0px;
+
+  /* Typography */
+  text-align: center;
+}
+
+.container-body{
+  color:slategray ;
+}
+
+#temp{
+  margin-left: 80px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top:0px;
+}
+
+.comparison-header {
+  /* Positioning */
+  margin-bottom: 10px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+
+  /* Typography */
+  font-size: 20px;
+  font-weight: bold;
+  color: #4aaaa5;
+  text-align: center;
+}
+
+.article-text {
+ float:left;
+}
+
+
+#comparison-image{
+  width:600px; 
+  height:550px;
+  margin-left: 50px
+}
+
+#navbar-logo{
+  padding: 0px;
+}
+
+
+
+
+
+

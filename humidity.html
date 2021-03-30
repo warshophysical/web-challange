@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" media="screen">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar-logo"> <!-- navbar-light ve bg-lighti silip navbar-dark bg-dark yazarsan siyah oluyor  -->
+        <button class="navbar-toggler" data-toggler="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="col-xs-9 phone-nav">
+            <a class="navbar-brand" href="indexx.html" id="logo">Latitude</a>
+          </div>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto" > <!-- class="navbar-nav" haliyle list item navbarin eb saginda yer aliyor. mr-auto/ml-auto list itemi en sola cekiyor-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="temperature.html">Max Temparature</a>
+                      <a class="dropdown-item" href="humidity.html">Humidity</a>
+                      <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                      <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                    <a href="compa.html" class="nav-link">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a href="data.html" class="nav-link">Data</a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>
+
+    <div class="container" id="content">
+        <div class="row">
+            <div class="col-8">
+                <article class="article-content">
+                    <h1 class="article-header">Humidity</h1>
+                    <hr/>
+                    <img src="Resources/images/Fig2.png" id="comparison-image"/>
+                    
+                    <p id="temp">With our current analysis, it is difficult to find any obvious correlation between latittude and humidity. There is a clear band of many data points at 100% humidity, and there do seem to be strong clusters of high humidity around the equator and in some other areas (e.g. a strong band of 0% humidity at latitude > 60). Further analysis is required.</p>
+      
+                  </article>
+            </div>
+            
+            <div class="col-4">
+                <article class="article-content">
+                    <h1 class="article-header">Visualizations</h1>
+                    <hr/>
+                    <div id="images">
+                        <a href="temperature.html"><img src="Resources/images/Fig1.png" alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
+                        <a href="humidity.html"><img src="Resources/images/Fig2.png" alt="Latitude vs. Humidity" class="imageNav-photo"></a>
+                        <a href="cloudiness.html"><img src="Resources/images/Fig3.png" alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
+                        <a href="wind.html"><img src="Resources/images/Fig4.png" alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
+                    </div>
+                  </article>
+            </div>
+        
+          </div>
+    </div>
+        
+ 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+</body>
+
+
+</html>
